@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
 }
 
 header {
@@ -8,14 +10,123 @@ header {
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .menu{
-    height: 100px;
+    /* display: flex; */
+    height: 150px;
     width: 100%;
 }
 
 .menu>img{
     height: 80%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.heading>h1{
+    margin-left: 950px;
+    margin-top: 400px;
+    font-size: 150px;
+    color:antiquewhite;
+}
+
+.login{
+    display: inline-block;
+    border: 1px solid black;
     padding: 10px;
+    font-size: 50px;
+    margin-left: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.search>input{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 15px;
+    padding-right: 270px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 1020px;
+}
+
+.account_container{
+    display: inline-block;
+    margin-left: 1910px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.account_container>img{
+    height: 100%;
+}
+
+main{
+    /* height: 100vh; */
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+.types_food{
+    display: grid;
+    /* height: 1300px; */
+    box-sizing: content-box;
+    padding: 70px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 180px;
+    background-color: bisque;
+    overflow-x: hidden;
+}
+
+.block{
+    background-color: white;
+    border: 2px solid black;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 50px;
+    height: 500px;
+}
+
+.breakfast{
+    background-image: url("breakfast.jpg");
+    background-size: cover;
+}
+
+.lunch{
+    background-image: url("lunch.jpg");
+    background-size: cover;
+}
+
+.dinner{
+    background-image: url("dinner.jpg");
+    background-size: cover;
+}
+
+.healthy_food{
+    background-image: url("healthy.jpg");
+    background-size: cover;
+}
+
+.snacks{
+    background-image: url("snacks.jpg");
+    background-size: cover;
+}
+
+.desserts{
+    background-image: url("breakfast.jpg");
+    background-size: cover;
+}
+
+.search{
+    width: 100%;
+}
+
+.heading{
+    width: 100%;
 }
