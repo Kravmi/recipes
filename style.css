@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url('header.jpg');
+    background-image: url('images/header.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -70,7 +70,7 @@ main{
 }
 
 
-.types_food{
+.types_food, .types_breakfast, .types_lunch{
     display: grid;
     /* height: 1300px; */
     box-sizing: content-box;
@@ -91,35 +91,58 @@ main{
     border-radius: 40px;
     font-size: 50px;
     height: 500px;
+    font-family: Arial;
+	color: #000000;
+	text-shadow: 
+		-0   -1px 0   #FFFFFF,
+		 0   -1px 0   #FFFFFF,
+		-0    1px 0   #FFFFFF,
+		 0    1px 0   #FFFFFF,
+		-1px -0   0   #FFFFFF,
+		 1px -0   0   #FFFFFF,
+		-1px  0   0   #FFFFFF,
+		 1px  0   0   #FFFFFF,
+		-1px -1px 0   #FFFFFF,
+		 1px -1px 0   #FFFFFF,
+		-1px  1px 0   #FFFFFF,
+		 1px  1px 0   #FFFFFF,
+		-1px -1px 0   #FFFFFF,
+		 1px -1px 0   #FFFFFF,
+		-1px  1px 0   #FFFFFF,
+		 1px  1px 0   #FFFFFF;
+}
+
+.block:hover{
+    box-shadow: 20px 20px 20px brown;
 }
 
 .breakfast{
-    background-image: url("breakfast.jpg");
+    background-image: url("images/breakfast.jpg");
     background-size: cover;
 }
 
 .lunch{
-    background-image: url("lunch.jpg");
+    background-image: url("images/lunch.jpg");
     background-size: cover;
 }
 
 .dinner{
-    background-image: url("dinner.jpg");
+    background-image: url("images/dinner.jpg");
     background-size: cover;
 }
 
 .healthy_food{
-    background-image: url("healthy.jpg");
+    background-image: url("images/healthy.jpg");
     background-size: cover;
 }
 
 .snacks{
-    background-image: url("snacks.jpg");
+    background-image: url("images/snacks.jpg");
     background-size: cover;
 }
 
 .desserts{
-    background-image: url("breakfast.jpg");
+    background-image: url("images/desserts.jpg");
     background-size: cover;
 }
 
@@ -129,4 +152,111 @@ main{
 
 .heading{
     width: 100%;
+}
+
+.fried-egg{
+    background-image: url("images/fried-egg.jpg");
+    background-size: cover;
+}
+
+.pancake{
+    background-image: url("images/pancake.jpg");
+    background-size: cover;
+}
+
+.omelette{
+    background-image: url("images/omelette.jpg");
+    background-size: cover;
+}
+.oatmeal{
+    background-image: url("images/oatmeal.jpg");
+    background-size: cover;
+}
+
+.sandwiches{
+    background-image: url("images/sandwiches.jpg");
+    background-size: cover;
+}
+
+.espresso{
+    background-image: url("images/espresso.jpg");
+    background-size: cover;
+}
+
+.fried-egg-recipe{
+    display: none;
+}
+
+.pancake_recipe{
+    display: none;
+}
+
+.omelette_recipe{
+    display: none;
+}
+
+.oatmeal_recipe{
+    display: none;
+}
+
+.sandwiches_recipe{
+    display: none;
+}
+
+.espresso_recipe{
+    display: none;
+}
+
+.borsh{
+    background-image: url("images/borsh.jpg");
+    background-size: cover;
+}
+
+.borsh_recipe{
+    display: none;
+}
+
+.buckwheat{
+    background-image: url("images/buckwheat.jpg");
+    background-size: cover;
+}
+
+.buckwheat_recipe{
+    display: none;
+}
+
+.okroshka{
+    background-image: url("images/okroshka.jpg");
+    background-size: cover;
+}
+
+.okroshka_recipe{
+    display: none;
+}
+
+.roast{
+    background-image: url("images/roast.jpg");
+    background-size: cover;
+}
+
+.roast_recipe{
+    display: none;
+}
+
+.cheese_soup{
+    background-image: url('images/cheese_soup.jpg');
+    background-size: cover;
+}
+
+.cheese_soup_recipe{
+    display: none;
+}
+
+.pilaf{
+    background-image: url("images/pilaf.jpg");
+    background-size: cover;
+}
+
+.pilaf_recipe{
+    display: none;
 }
